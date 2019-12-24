@@ -1,0 +1,27 @@
+h2{
+  font-size: 6rem!important;
+}
+.odometer {
+    font-size: 100px;
+}
+.button {}
+.button {
+  margin-top: 5px;
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  border: none;
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: 10px 20px; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  /* float: left; */
+}
+.button:hover { background: rgb(232,95,76);}
+.button:active {background: rgb(152,15,0);}
+input[type=number]{
+  width: 200px;
+  margin-top: 10px;
+}
+.interval {
+  color: red;
+}
